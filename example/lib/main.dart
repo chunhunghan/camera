@@ -175,8 +175,8 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
                             decoration: BoxDecoration(
                                 border: Border.all(color: Colors.pink)),
                           ),
-                    width: 64.0,
-                    height: 64.0,
+                    width: 264.0,
+                    height: 264.0,
                   ),
           ],
         ),

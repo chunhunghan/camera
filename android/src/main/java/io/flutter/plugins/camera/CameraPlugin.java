@@ -632,16 +632,6 @@ public class CameraPlugin implements MethodCallHandler {
     }
 
     private void takePictureBuffer(@NonNull final Result result) {
-      /*final File file = new File(filePath);
-
-      if (file.exists()) {
-        result.error(
-                "fileExists",
-                "File at path '" + filePath + "' already exists. Cannot overwrite.",
-                null);
-        return;
-      }*/
-
       pictureImageReader.setOnImageAvailableListener(
               new ImageReader.OnImageAvailableListener() {
                 @Override
